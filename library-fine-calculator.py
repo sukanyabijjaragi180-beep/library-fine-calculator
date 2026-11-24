@@ -1,6 +1,7 @@
 from datetime import date
 
-FINE_PER_DAY = 2  # rupees per late day
+FINE_PER_DAY = 2 # rupees per late day
+MAX_FINE = 500 
 
 
 def days_late(due, ret):
